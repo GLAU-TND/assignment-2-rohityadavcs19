@@ -25,7 +25,7 @@ public class MyMain {
         pre.queuePrint(pre);
         post.queuePrint(post);
 
-        System.out.println("Verification of statement root element occours first in pre-order and last in post-order ");
+       System.out.println("Verification of statement root element occours first in pre-order and last in post-order ");
         System.out.println(pre.getFront().getNode().getData() == post.getEnd().getNode().getData());
 
 
